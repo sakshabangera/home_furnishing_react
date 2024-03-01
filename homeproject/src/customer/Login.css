@@ -1,0 +1,36 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #f8f8f8;
+  }
+  
+  nav a {
+    margin-left: 1em;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  .login-form form input {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid lightblue;
+  }
+  
+  .login-form form button {
+    margin: 1em;
+    padding: 0.5em 1em;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  
